@@ -16,8 +16,7 @@ body {
 	align-content: center;
 }
 .sumar h1 {
-	font-size: 5em;
-	color: #ffa;
+	display: none;
 }
 .haust {
 	display: none;
@@ -26,6 +25,20 @@ body {
 	display: none;
 }
 .vetur {
-	display: none;
+	background: linear-gradient(to left, #E6DADA , #274046); /* Standard syntax (must be last) */
+	position: fixed;
+	width: 100%;
+	height: 100%;
+  	margin: 0;
+  	padding: 0;
+  
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.vetur h1{
+	font-size: 5em;
+	color: #c0c3c6;
 }
 
